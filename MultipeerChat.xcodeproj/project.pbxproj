@@ -13,6 +13,8 @@
 		7E18ED4D1B2DAC7200A2A136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E18ED4C1B2DAC7200A2A136 /* Images.xcassets */; };
 		7E18ED501B2DAC7200A2A136 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E18ED4E1B2DAC7200A2A136 /* LaunchScreen.xib */; };
 		7E18ED5C1B2DAC7200A2A136 /* MultipeerChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E18ED5B1B2DAC7200A2A136 /* MultipeerChatTests.swift */; };
+		7E18ED661B2DAD0A00A2A136 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E18ED651B2DAD0A00A2A136 /* MultipeerConnectivity.framework */; };
+		7E18ED681B2DB61100A2A136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E18ED671B2DB61100A2A136 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7E18ED551B2DAC7200A2A136 /* MultipeerChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E18ED5A1B2DAC7200A2A136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E18ED5B1B2DAC7200A2A136 /* MultipeerChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatTests.swift; sourceTree = "<group>"; };
+		7E18ED651B2DAD0A00A2A136 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		7E18ED671B2DB61100A2A136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E18ED681B2DB61100A2A136 /* Foundation.framework in Frameworks */,
+				7E18ED661B2DAD0A00A2A136 /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		7E18ED371B2DAC7200A2A136 = {
 			isa = PBXGroup;
 			children = (
+				7E18ED671B2DB61100A2A136 /* Foundation.framework */,
+				7E18ED651B2DAD0A00A2A136 /* MultipeerConnectivity.framework */,
 				7E18ED421B2DAC7200A2A136 /* MultipeerChat */,
 				7E18ED581B2DAC7200A2A136 /* MultipeerChatTests */,
 				7E18ED411B2DAC7200A2A136 /* Products */,
